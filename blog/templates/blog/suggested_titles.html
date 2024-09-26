@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Suggested Titles{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h2>Suggested Titles for Your Blog Post</h2>
+    </div>
+    <div class="card-body">
+        <p><strong>Content:</strong> {{ blog_post.content }}</p>
+        <h5>Suggested Titles:</h5>
+        <ul class="list-group">
+            {% for title in blog_post.suggested_titles %}
+            <li class="list-group-item">{{ title }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'create_post' %}" class="btn btn-success mt-3">Create Another Post</a>
+    </div>
+</div>
+{% endblock %}
