@@ -23,8 +23,8 @@ This project is a Django-based blog application that allows users to create blog
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/saketjaiswal746/title_suggestion.git
+   cd title_suggestion
 
 2. **Create virtual Environment:**
 
