@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('all')
+# nltk.download('all')
 
 def suggest_titles(content):
     summarizer = pipeline(
