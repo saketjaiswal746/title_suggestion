@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('all')
 
 def suggest_titles(content):
     # Load a pre-trained summarization model
