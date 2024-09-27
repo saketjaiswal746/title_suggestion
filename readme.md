@@ -28,8 +28,8 @@ This project is a Django-based blog application that allows users to create blog
 
 2. **Create virtual Environment:**
 
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 3. **Install the required package**
 
@@ -39,8 +39,8 @@ pip install -r requirements.txt
 
 Run the following commands to apply migrations and create a database:
 
-python manage.py makemigrations
-python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
 5. **Run the development server**
 
@@ -55,7 +55,7 @@ Navigate to the blog creation page.
 Enter the content of your blog post.
 Upon submission, suggested titles will be displayed based on the content.
 
-You can access the application at http://127.0.0.1:8000/blog/create/
+-You can access the application at http://127.0.0.1:8000/blog/create/
 
 
 ## API for Title Suggestions:
