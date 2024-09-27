@@ -9,8 +9,8 @@ class BlogPostForm(forms.ModelForm):
             'content': forms.Textarea(attrs={
                 'rows': 10,
                 'cols': 80,
-                'class': 'form-control',  # Bootstrap styling
+                'class': 'form-control',  
                 'placeholder': 'Write your blog post content here...',
-                'style': 'resize: vertical;'  # Allows only vertical resizing
+                'style': 'resize: vertical;'  
             }),
         }
