@@ -34,7 +34,6 @@ This project is a Django-based blog application that allows users to create blog
 3. **Install the required package**
 
 - pip install -r requirements.txt
-- pip install nltk
 
 4. **Set up the database:**
 
